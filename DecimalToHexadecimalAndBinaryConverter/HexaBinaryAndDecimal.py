@@ -59,9 +59,11 @@ if operation == 1:
 if operation == 2:
     user_decimal2 = int(input("Enter a integer decimal number to convert to hexadecimal: "))
     nibble_list = get_number_hexa(user_decimal2)
+    hexa_string = ''.join(nibble_list)
 
     print(f"The number you chose was {user_decimal2}")
-    print(f"Your number to hexadecimal is: {"".join(nibble_list)}")
+    print(f"Your number to hexadecimal is: {hexa_string)") 
+
 
 
 
